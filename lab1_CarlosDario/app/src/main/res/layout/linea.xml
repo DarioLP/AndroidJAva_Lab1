@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LytContenedor"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="21sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:text="Hola Usuario"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#BF360C"
+        android:text="Bienvenido"/>
+
+    <LinearLayout
+        android:id="@+id/Lhorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#4CAF50"
+            android:text="I SEMESTRE 2022"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
